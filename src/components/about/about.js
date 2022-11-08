@@ -11,8 +11,8 @@ import fi from '../../assets/git.png'
 function About() {
   return (
     <>
-    <section className='about pt-5' id='about'>
-      <Container>
+    <section className='about pt-5' >
+      <Container id='about'>
         <Row>
           <Col md={3}>
             <div className='about-div'>
@@ -74,7 +74,7 @@ function About() {
       </Container>
     </section>
     
-        <Container className='bg-pur mb-5'>
+        <Container className='bg-pur mb-5' id='contact'>
             <Row>
                 <Col sm={12}>
                     <div className='text-center pt-5'>
@@ -82,7 +82,7 @@ function About() {
                     </div>
                     <div className='about-form pt-5 text-center'>
                         <input type='mail' placeholder='Your Message' className='mail-form'></input>
-                        <button >submit</button>
+                        <button action="mailto:alishandev@proton.me">submit</button>
                     </div>
                 </Col>
             </Row>

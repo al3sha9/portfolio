@@ -6,7 +6,7 @@ import dp from '../../assets/dp.png'
 
 function Header() {
   return (
-    <header className='header pt-5' id='header'>
+    <header className='header pt-5' id='home'>
       <Container>
         <Row>
           <Col md={12}>

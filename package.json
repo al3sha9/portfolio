@@ -1,7 +1,7 @@
 {
   "name": "personal",
   "version": "0.1.0",
-  "homepage": "https://alishan.portfolio.io.git",
+  "homepage": "http://al3sha9.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

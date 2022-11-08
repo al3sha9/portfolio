@@ -5,6 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Navbar from 'react-bootstrap/Navbar';
 import './nav.css'
 import 'animate.css';
+import gii from '../../assets/giphy.gif'
 
 import { Col, Row } from 'react-bootstrap';
 
@@ -29,30 +30,35 @@ function NAVBAR({ name, ...props }) {
             <Nav.Link className='na-link mx-2 active' href="#home">Home</Nav.Link>
             <Nav.Link href="#about" className='na-link mx-2'>About Me</Nav.Link>
             <Nav.Link href="#contact" className='na-link mx-2'>Contact me</Nav.Link>
-            <Nav.Link className='na-link mx-2' > Works</Nav.Link>
+            <Nav.Link className='na-link mx-2' href='#work'> Works</Nav.Link>
 
           </Nav>
           <Nav className='ms-auto'>
             <Nav.Link className='na-link-o cta' onClick={handleShow} ><span>Let's Talk</span><svg viewBox="0 0 13 10" height="10px" width="15px"><path d="M1,5 L11,5"></path><polyline points="8 1 12 5 8 9"></polyline></svg></Nav.Link>
-                <Offcanvas show={show} className='dark-bg' onHide={handleClose} {...props}>
+                <Offcanvas show={show}  className='dark-bg' onHide={handleClose} {...props}>
                     <Offcanvas.Header closeButton>
                     <Offcanvas.Title>My Socials</Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <div className='canva-bod'>
                             <div className='upw icon-side mx-3 my-3 animate__bounceInLeft animate__animated '>
-                                <a href='#' className='bta'><i className='fa fa-globe'></i> <span className="hover-underline-animation"> Upwork Profile</span></a>
+                                <a href='https://www.upwork.com/freelancers/~014531a77a97a2ef44' target="_blank"  className='bta'><i className='fa fa-globe'></i> <span className="hover-underline-animation"> Upwork Profile</span></a>
                             </div>
                             <div className='gith icon-side mx-3 my-3 animate__bounceInLeft animate__animated delayy' >
-                                <a href='#' className='bta'><i className='fa fa-github'></i> <span className="hover-underline-animation">github Profile</span></a>
+                                <a href='https://github.com/al3sha9' target="_blank" className='bta'><i className='fa fa-github'></i> <span className="hover-underline-animation">github Profile</span></a>
                             </div>
                             <div className='linkedin icon-side mx-3 my-3 animate__bounceInLeft animate__animated delayy1'>
-                                <a href='#' className='bta'><i className='fa fa-linkedin'></i> <span className="hover-underline-animation">Linkedin Profile</span></a>
+                                <a href='https://www.linkedin.com/in/alshnkhn/' target="_blank" className='bta'><i className='fa fa-linkedin'></i> <span className="hover-underline-animation">Linkedin Profile</span></a>
                             </div>
                             <div className='fiv icon-side mx-3 my-3 animate__bounceInLeft animate__animated delayy2'>
-                                <a href='#' className='bta'><i className='fa fa-code'></i> <span className="hover-underline-animation">Fiverr Profile</span></a>
+                                <a href='https://www.fiverr.com/alishan_1?up_rollout=true' target="_blank"  className='bta'><i className='fa fa-code'></i> <span className="hover-underline-animation">Fiverr Profile</span></a>
+                            </div>
+                            <div className='pt-5 text-center'>
+                              <img className='pt-2 pleyy animate__bounceInLeft animate__animated' src={gii} width='320px'></img>
+                              <p className='pt-3'>made with ❤️ at Alphalogix</p>
                             </div>
                         </div>
+
                     </Offcanvas.Body>
                 </Offcanvas>
           </Nav>

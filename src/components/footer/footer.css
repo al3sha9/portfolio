@@ -1,16 +1,19 @@
 .footer{
-    background-color: #0f021f;
+    background-image: url(../../assets/abc.png);
+background-size: cover;
+/* opacity: 0.1; */
 }
 .footer img{
     box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
     border-radius: 50%;
 }
 .mt-{
-    padding-top: 112px;
+    margin-top: 112px;
 }
 .footer h3{
     font-family: 'Raleway', sans-serif;
     color: #fefefe;
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
     font-weight: 900;
 
 }
@@ -28,4 +31,14 @@
 }
 .socials {
     padding-top: 112px;
+}
+.bg-pat{
+    background-size: cover;
+    background-position: center;
+    background-color: #0f021f;
+
+    /* height: 100px; */
+}
+.imgp{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
