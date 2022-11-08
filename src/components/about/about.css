@@ -1,0 +1,62 @@
+.about{
+    background-color: #0f021f;
+    height: 400px;
+    color: #fefefe;
+}
+.about-div img{
+    width: 40px;
+}
+.about-div h3{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.about-div h5{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.bg-pur{
+    background-color: #7600ff;
+    margin-top: -250px;
+    height: 400px;
+    position: relative;
+    color: #fefefe;
+}
+.bg-pur h2{
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 45px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.mail-form{
+    padding: 11px 18px;
+     font-size: 18px;
+     border-width: 0px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     width: 500px;
+    border-radius: 39px 0px 0px 39px;
+
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     margin-right: 1px;
+}
+.mail-form:focus {
+    outline:none;
+}
+.about-form button{
+    padding: 11px;
+    border: none;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+font-weight: bold;
+    color: #7600ff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 39px 39px 0px;
+}

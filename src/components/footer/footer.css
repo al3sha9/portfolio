@@ -1,0 +1,31 @@
+.footer{
+    background-color: #0f021f;
+}
+.footer img{
+    box-shadow: rgb(0 0 0 / 56%) 0px 22px 70px 4px;
+    border-radius: 50%;
+}
+.mt-{
+    padding-top: 112px;
+}
+.footer h3{
+    font-family: 'Raleway', sans-serif;
+    color: #fefefe;
+    font-weight: 900;
+
+}
+.footer span{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer a{
+    color: #fefefe;
+    text-align: right;
+    background-color: #7600ff;
+    padding: 10px 15px;
+    border-radius: 100px;
+}
+.socials {
+    padding-top: 112px;
+}

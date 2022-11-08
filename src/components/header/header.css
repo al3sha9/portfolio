@@ -1,0 +1,50 @@
+.header{
+    background-image: url(../../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main-heading{
+    text-align: center;
+    
+}
+.main-heading h1{
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 55px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    opacity: 1 !important;
+}
+.main-heading span{
+    color: #7600ff;
+}
+.top-img img{
+    border-radius: 50%;
+    border-top: 5px;
+     
+}
+.top-1{
+    position: absolute;
+    top: 414px;
+    left: 546px;
+    background-color: #234567;
+    padding: 5px 25px;
+    color: #fefefe;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    border-radius: 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.top-2{
+    position: absolute;
+    top: 563px;
+    left: 865px;
+    background-color: #234567;
+    padding: 5px 25px;
+    color: #fefefe;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    border-radius: 40px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
