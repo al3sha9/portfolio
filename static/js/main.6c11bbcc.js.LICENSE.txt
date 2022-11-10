@@ -23,6 +23,18 @@ object-assign
   and limitations under the License.
   ***************************************************************************** */
 
+/*! ./darkmode */
+
+/*! no static exports found */
+
+/*!**********************!*\
+        !*** ./src/index.js ***!
+        \**********************/
+
+/*!*************************!*\
+        !*** ./src/darkmode.js ***!
+        \*************************/
+
 /**
  * @license React
  * react-dom.production.min.js
