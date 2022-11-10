@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './nav.css'
 import 'animate.css';
 import gii from '../../assets/giphy.gif'
+import Darkmode from 'darkmode-js';
 
 import { Col, Row } from 'react-bootstrap';
 
@@ -16,7 +17,12 @@ function NAVBAR({ name, ...props }) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
- 
+  new Darkmode().showWidget();
+
+
+const darkmode =  new Darkmode();
+darkmode.toggle();
+console.log(darkmode.isActivated()) 
 
 
   return (
@@ -31,6 +37,8 @@ function NAVBAR({ name, ...props }) {
             <Nav.Link href="#about" className='na-link mx-2'>About Me</Nav.Link>
             <Nav.Link href="#contact" className='na-link mx-2'>Contact me</Nav.Link>
             <Nav.Link className='na-link mx-2' href='#work'> Works</Nav.Link>
+            <Nav.Link className='na-link mx-2' > Works</Nav.Link>
+
 
           </Nav>
           <Nav className='ms-auto'>

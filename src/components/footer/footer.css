@@ -1,6 +1,11 @@
 .footer{
-    background-image: url(../../assets/abc.png);
+    /* background-image: url(../../assets/abc.png); */
 background-size: cover;
+isolation: isolate;
+background-color: #0f021f;
+
+/* mix-blend-mode: difference; */
+/* z-index: -11111111111111111; */
 /* opacity: 0.1; */
 }
 .footer img{
@@ -35,10 +40,12 @@ background-size: cover;
 .bg-pat{
     background-size: cover;
     background-position: center;
-    background-color: #0f021f;
+    /* background-color: #0f021f; */
 
     /* height: 100px; */
 }
 .imgp{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
+
+
